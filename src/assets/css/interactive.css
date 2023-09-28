@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+body {
+    /* background: linear-gradient(to bottom right, rgb(12, 12, 12), rgb(46, 46, 45)); */
+}
+
+.interactivebody {
+    /* background: linear-gradient(to bottom right, rgb(12, 12, 12), rgb(46, 46, 45)); */
+    background: rgb(16, 16, 16);
+}
+
+.interHero {
+    background-image: url("../images/set.jpg");
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);  
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;  
+    /* margin-top: -78px; */
+}
+.interText {
+    font-family: 'Audiowide', cursive;
+    color: rgb(249, 249, 249);
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.interWelcome {
+    padding: 10px;
+    color: white;
+    background-color: rgb(16, 16, 16);
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+.interWelcome h3 {
+    width: 80%;
+    margin: 10px auto;
+    /* border: 1px solid white; */
+}
+.interBenefits {
+    background-color: white;
+    color: black;
+    margin: 20px auto 0;
+    padding-bottom: 19px;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    overflow: scroll;
+}
+.interBenefits::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .interBenefits {
+    color: black;
+    background: black;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+.interBenefits p {
+    /* background-color: black; */
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 200px;
+}
+iframe {
+    padding-left: 2%;
+    width: 1500px;
+    height: 600px;
+    
+}
+.explore {
+    color: white;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 40px;
+    text-align: start;
+    margin: 40px auto 0;
+    align-items: center;
+    display: block;
+    
+    
+}
+.explore hr {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 3px solid rgb(7, 7, 7);
+}
+.explore1 {
+    margin-bottom: 20;
+}
+
+.cards div  img {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardTitle {
+    text-align: center;
+
+}
+.guide {
+    display: flex;
+    justify-content: center;
+    /* background-color: white; */
+}
+.guide img {
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
+    margin: 0 auto;        
+}
+.bannerOne {
+    background-image: url("../images/SolarSystemBanner.webp");
+    height: 500%;
+    width: 1000%;
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underlines from links */
+    
+}
+
+
+/* .cards_ */
+.cards_ {
+    width: 100%;
+    max-width: 1300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 20px;
+
+}
+.cards_  .div1,.div2,.div3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cards_ .image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.cards_ .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cards_ .image p {
+    color: white;
+    position: absolute;
+    bottom: -17px;
+    padding: 5px;
+    width: 100%;    
+    left: 0;
+    text-align: center;
+    height: max-content;
+    background-color: rgba(13, 13, 13, 0.507);
+    pointer-events: none;
+}
+
+.cards_ .card_text {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.interactive {
+    width: 100%;
+}
+.interactive p {
+    color: white;
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto 0;        
+    text-align: center;
+    bottom: 20%;
+}
+
+
+.interactive .iframe-img{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.interactive iframe {
+    margin: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    width: 100vw;
+    height: 400px;
+    margin-left: -2.5%;
+    display: flex;
+    flex-wrap: wrap;
+}  
+.solar-model   .solar-model-mobile tbody .model-store-btns {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+}
+.banner img {
+    width: 100%;
+}
+.banner hr {
+    width: 80%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .interHero {
+      height: auto; /* Adjust the height as needed for smaller screens */
+    }
+  
+    .interText {
+      font-size: medium; /* Adjust the font size as needed for smaller screens */
+    }
+  
+    .interBenefits {
+      margin-left: 5%; /* Adjust the margin as needed for smaller screens */
+      width: 90%; /* Adjust the width as needed for smaller screens */
+    }
+  
+    /* Add more CSS rules for smaller screens here */
+  
+    .guide img {
+      width: 100%; /* Adjust the width as needed for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+      margin-left: 0; /* Adjust the margin as needed for smaller screens */
+    }
+    iframe {
+        width: 100%; /* Make the iframe width 100% of its container */
+        height: auto; /* Let the height adjust proportionally */
+        min-width: 0; /* Remove the minimum width constraint */
+        min-height: 0; /* Remove the minimum height constraint */
+      }
+  }

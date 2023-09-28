@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@200&display=swap');
+
+.exploreBody {
+  background: black;
+  margin-top: 70px;
+}
+
+.exploreHero {
+    position: relative;
+    display: block;
+    align-items: center; /* Center vertically */ 
+    
+ 
+  }
+ 
+  .heroTxt {
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    position: absolute; /* Set the <p> as a positioned child */
+    top: 70%; /* Adjust the vertical position as needed (centered in this case) */
+    left: 13%; /* Adjust the horizontal position as needed (centered in this case) */
+    background-color: rgba(0, 0, 0, 0.169); /* Add a background color with transparency */
+    color: #fff; /* Set the text color */
+    align-items: start;
+    z-index: 2; /* Ensure the <p> is above the image */
+  }
+  .learn-more-button {
+    font-size: 10px;
+  }
+  .heroTxt h5 {
+    font-size: 15px;
+  }
+  .exploreHero-image img {
+    max-width: 100%;
+    height: 95vh;
+    width: 100vw;
+     /* margin-top: 70px; */
+
+  }
+  
+
+/* ---------------------------------------------- */
+.exploreTxt {
+    width: 100%;
+    max-width: 500px;
+    font-family: 'Audiowide', cursive;
+    font-size: 35px;
+    position: absolute; /* Set the <p> as a positioned child */
+    top: 170%; /* Adjust the vertical position as needed (centered in this case) */
+    left: 13%; /* Adjust the horizontal position as needed (centered in this case) */
+    background-color: rgba(0, 0, 0, 0.169); /* Add a background color with transparency */
+    color: #fff; /* Set the text color */
+    align-items: start;
+    z-index: 2; /* Ensure the <p> is above the image */
+  }
+  .learn-more-button {
+    font-size: 10px;
+  }
+  .exploreTxt h5 {
+    font-size: 15px;
+  }
+
+  .exploreHero-image {
+    width: 100%;
+    height: 100%;
+  }
+ 
+
+/* ================================================== */
+  .heroTxt1 {
+    width: 100%;
+    max-width: 500px;
+    font-family: 'Audiowide', cursive;
+    font-size: 35px;
+    position: absolute; /* Set the <p> as a positioned child */
+    top: 270%; /* Adjust the vertical position as needed (centered in this case) */
+    left: 13%; /* Adjust the horizontal position as needed (centered in this case) */
+    background-color: rgba(0, 0, 0, 0.169); /* Add a background color with transparency */
+    color: #fff; /* Set the text color */
+    align-items: start;
+    z-index: 2; /* Ensure the <p> is above the image */
+  }
+ 
+  @media only screen and (max-width: 1040px) {
+    .heroTxt {
+      top: 50%;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .heroTxt {
+      top: 40%;
+    }
+  }
+  @media only screen and (max-width: 770px) {
+    .heroTxt {
+      top: 30%;
+    }
+  }
+  @media only screen and (max-width: 620px) {
+    .heroTxt {
+      top: 15%;
+    }
+  }
+  @media only screen and (max-width: 520px) {
+    .heroTxt {
+      top: 15%;
+    }
+    .apolo {
+      font-size: 20px;
+    }
+  }

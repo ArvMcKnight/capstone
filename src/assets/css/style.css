@@ -1,0 +1,21 @@
+.footer {
+  height: 200px;
+  color: white;
+  /* background-image: url("../images/landingPage.gif");  */
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;
+  align-self: flex-end;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+}
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+
+}
+.socials i {
+  padding: 15px;
+}

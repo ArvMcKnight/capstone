@@ -1,0 +1,126 @@
+.inter-section {
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  position: relative;
+ 
+  background-color:  rgb(16, 16, 16);
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.inter-section img {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  position: absolute;
+  inset: 0;
+  margin: 10px auto 0;
+  
+}
+
+.inter-section  .input {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+
+}
+.inter-section  .input .inter-text {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+.inter-section  .input .inter-text p {
+  position: absolute;
+  color: white;
+  
+}
+
+.inter-section .input .line {
+  width: 100%;
+  max-width: 700px;
+}
+.inter-section  .input .line input {
+  width: 100%;
+  max-width: 700px;
+}
+
+.line .line1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -13px;
+  
+}
+.line .line1 div {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.line .line1 div span:nth-child(1) {
+  font-weight: bolder;
+  
+}
+.line .line1 div span:nth-child(2) {
+  font-weight: 600;
+  
+}
+
+.inter-text {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.inter-text h2 {
+  font-weight: 400;
+  font-size: 19px;
+  color: white;
+}
+.inter-text h5 {
+  font-size: 16px;
+  color: white;
+}
+.inter-text p {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .inter-section {
+      height: 500px; /* Adjust the height as needed for smaller screens */
+  }
+
+  .inter-section img {
+      height: auto; /* Adjust the height as needed for smaller screens */
+  }
+
+}   
+
+@media screen and (max-width: 768px) {
+  .inter-text {
+      max-width: 100%; /* Adjust the max-width for smaller screens */
+      padding: 0 20px; /* Add or adjust padding for smaller screens as needed */
+  }
+
+  .inter-text h2 {
+      font-size: 18px; /* Adjust the font size for h2 on smaller screens */
+  }
+
+  .inter-text h5 {
+      font-size: 15px; /* Adjust the font size for h5 on smaller screens */
+  }
+
+  .inter-text p {
+      font-size: 13px; /* Adjust the font size for p on smaller screens */
+  }
+}
